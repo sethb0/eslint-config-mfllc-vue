@@ -1,0 +1,23 @@
+extends:
+- "@sethb0/mfllc"
+- "plugin:vue/recommended"
+parserOptions:
+  parser: babel-eslint
+rules:
+  vue/html-indent:
+  - warn
+  - 2
+  - alignAttributesVertically: false
+  vue/html-self-closing:
+  - warn
+  - html:
+      void: never
+      normal: never
+      component: never
+    svg: always
+    math: always
+  vue/max-attributes-per-line: off
+  vue/no-unused-components: warn
+  vue/no-unused-vars: warn
+  vue/return-in-computed-property: warn
+  vue/singleline-html-element-content-newline: off
