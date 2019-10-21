@@ -1,6 +1,6 @@
 {
   "name": "@sethb0/eslint-config-mfllc-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint coding style defaults for VueJS frobnitzim by Metal Fatigue LLC",
   "author": "Seth Blumberg <sethb@pobox.com>",
   "license": "MIT",
